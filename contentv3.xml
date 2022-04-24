@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<instance xmlns="http://www.exelearning.org/content/v0.3" reference="4" version="0.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.exelearning.org/content/v0.3 content.xsd" class="exe.engine.package.Package">
+<instance xmlns="http://www.exelearning.org/content/v0.3" reference="3" version="0.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.exelearning.org/content/v0.3 content.xsd" class="exe.engine.package.Package">
  <dictionary>
   <string role="key" value="_title"></string>
   <unicode value="Repositorio de Profesoratecno"></unicode>
@@ -91,7 +91,7 @@
   <string role="key" value="_nodeIdDict"></string>
   <dictionary>
    <unicode role="key" value="0"></unicode>
-   <instance class="exe.engine.node.Node" reference="3">
+   <instance class="exe.engine.node.Node" reference="4">
     <dictionary>
      <string role="key" value="_title"></string>
      <unicode value="INICIO"></unicode>
@@ -171,11 +171,11 @@
            <string role="key" value="anchors_linked_from_fields"></string>
            <dictionary></dictionary>
            <string role="key" value="content_w_resourcePaths"></string>
-           <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://profetecnoalamos.github.io/apuntes.html&quot;&gt;APUNTES&lt;/a&gt;&lt;/p&gt;
+           <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;&lt;a href=&quot;exe-node:INICIO:APUNTES#auto_top&quot;&gt;APUNTES&lt;/a&gt;&lt;/p&gt;
 &lt;hr /&gt;
-&lt;p&gt;&lt;a href=&quot;https://profetecnoalamos.github.io/recursos_para_profesors.html&quot;&gt;RECURSOS para PROFESOR@S&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;exe-node:INICIO:RECURSOS%20para%20PROFESOR%40S#auto_top&quot;&gt;RECURSOS para PROFESOR@S&lt;/a&gt;&lt;/p&gt;
 &lt;hr /&gt;
-&lt;p&gt;&lt;a href=&quot;https://profetecnoalamos.github.io/webs_de_inters.html&quot;&gt;WEBS DE INTERÉS&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
+&lt;p&gt;&lt;a href=&quot;exe-node:INICIO:WEBS%20DE%20INTER%C3%89S#auto_top&quot;&gt;WEBS DE INTERÉS&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
            <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
            <int value="4"></int>
            <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
@@ -194,11 +194,99 @@
             </dictionary>
            </instance>
            <string role="key" value="intlinks_to_anchors"></string>
-           <dictionary></dictionary>
+           <dictionary>
+            <unicode role="key" value="exe-node:INICIO:APUNTES#auto_top"></unicode>
+            <instance class="exe.engine.node.Node" reference="5">
+             <dictionary>
+              <string role="key" value="_title"></string>
+              <unicode value="APUNTES"></unicode>
+              <string role="key" value="idevices"></string>
+              <list></list>
+              <string role="key" value="_id"></string>
+              <unicode value="1"></unicode>
+              <string role="key" value="_package"></string>
+              <reference key="3"></reference>
+              <string role="key" value="anchor_fields"></string>
+              <list></list>
+              <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+              <int value="2"></int>
+              <string role="key" value="exportType"></string>
+              <string value="website"></string>
+              <string role="key" value="last_full_node_path"></string>
+              <string value="exe-node:INICIO:APUNTES"></string>
+              <string role="key" value="parent"></string>
+              <reference key="4"></reference>
+              <string role="key" value="top_anchors_linked_from_fields"></string>
+              <list>
+               <reference key="2"></reference>
+              </list>
+              <string role="key" value="children"></string>
+              <list></list>
+             </dictionary>
+            </instance>
+            <unicode role="key" value="exe-node:INICIO:RECURSOS%20para%20PROFESOR%40S#auto_top"></unicode>
+            <instance class="exe.engine.node.Node" reference="6">
+             <dictionary>
+              <string role="key" value="_title"></string>
+              <unicode value="RECURSOS para PROFESOR@S"></unicode>
+              <string role="key" value="idevices"></string>
+              <list></list>
+              <string role="key" value="_id"></string>
+              <unicode value="3"></unicode>
+              <string role="key" value="_package"></string>
+              <reference key="3"></reference>
+              <string role="key" value="anchor_fields"></string>
+              <list></list>
+              <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+              <int value="2"></int>
+              <string role="key" value="exportType"></string>
+              <string value="website"></string>
+              <string role="key" value="last_full_node_path"></string>
+              <string value="exe-node:INICIO:RECURSOS%20para%20PROFESOR%40S"></string>
+              <string role="key" value="parent"></string>
+              <reference key="4"></reference>
+              <string role="key" value="top_anchors_linked_from_fields"></string>
+              <list>
+               <reference key="2"></reference>
+              </list>
+              <string role="key" value="children"></string>
+              <list></list>
+             </dictionary>
+            </instance>
+            <unicode role="key" value="exe-node:INICIO:WEBS%20DE%20INTER%C3%89S#auto_top"></unicode>
+            <instance class="exe.engine.node.Node" reference="7">
+             <dictionary>
+              <string role="key" value="_title"></string>
+              <unicode value="WEBS DE INTERÉS"></unicode>
+              <string role="key" value="idevices"></string>
+              <list></list>
+              <string role="key" value="_id"></string>
+              <unicode value="2"></unicode>
+              <string role="key" value="_package"></string>
+              <reference key="3"></reference>
+              <string role="key" value="anchor_fields"></string>
+              <list></list>
+              <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+              <int value="2"></int>
+              <string role="key" value="exportType"></string>
+              <string value="website"></string>
+              <string role="key" value="last_full_node_path"></string>
+              <string value="exe-node:INICIO:WEBS%20DE%20INTER%C3%89S"></string>
+              <string role="key" value="parent"></string>
+              <reference key="4"></reference>
+              <string role="key" value="top_anchors_linked_from_fields"></string>
+              <list>
+               <reference key="2"></reference>
+              </list>
+              <string role="key" value="children"></string>
+              <list></list>
+             </dictionary>
+            </instance>
+           </dictionary>
            <string role="key" value="nextImageId"></string>
            <int value="0"></int>
            <string role="key" value="parentNode"></string>
-           <reference key="3"></reference>
+           <reference key="4"></reference>
           </dictionary>
          </instance>
         </list>
@@ -215,7 +303,7 @@
         <string role="key" value="originalicon"></string>
         <string value=""></string>
         <string role="key" value="parentNode"></string>
-        <reference key="3"></reference>
+        <reference key="4"></reference>
         <string role="key" value="systemResources"></string>
         <list></list>
         <string role="key" value="undo"></string>
@@ -230,7 +318,7 @@
      <string role="key" value="_id"></string>
      <unicode value="0"></unicode>
      <string role="key" value="_package"></string>
-     <reference key="4"></reference>
+     <reference key="3"></reference>
      <string role="key" value="anchor_fields"></string>
      <list></list>
      <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
@@ -245,93 +333,18 @@
      <list></list>
      <string role="key" value="children"></string>
      <list>
-      <instance class="exe.engine.node.Node" reference="5">
-       <dictionary>
-        <string role="key" value="_title"></string>
-        <unicode value="APUNTES"></unicode>
-        <string role="key" value="idevices"></string>
-        <list></list>
-        <string role="key" value="_id"></string>
-        <unicode value="1"></unicode>
-        <string role="key" value="_package"></string>
-        <reference key="4"></reference>
-        <string role="key" value="anchor_fields"></string>
-        <list></list>
-        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
-        <int value="2"></int>
-        <string role="key" value="exportType"></string>
-        <string value="website"></string>
-        <string role="key" value="last_full_node_path"></string>
-        <string value="exe-node:INICIO:APUNTES"></string>
-        <string role="key" value="parent"></string>
-        <reference key="3"></reference>
-        <string role="key" value="top_anchors_linked_from_fields"></string>
-        <list></list>
-        <string role="key" value="children"></string>
-        <list></list>
-       </dictionary>
-      </instance>
-      <instance class="exe.engine.node.Node" reference="7">
-       <dictionary>
-        <string role="key" value="_title"></string>
-        <unicode value="RECURSOS para PROFESOR@S"></unicode>
-        <string role="key" value="idevices"></string>
-        <list></list>
-        <string role="key" value="_id"></string>
-        <unicode value="3"></unicode>
-        <string role="key" value="_package"></string>
-        <reference key="4"></reference>
-        <string role="key" value="anchor_fields"></string>
-        <list></list>
-        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
-        <int value="2"></int>
-        <string role="key" value="exportType"></string>
-        <string value="website"></string>
-        <string role="key" value="last_full_node_path"></string>
-        <string value="exe-node:INICIO:RECURSOS%20para%20PROFESOR%40S"></string>
-        <string role="key" value="parent"></string>
-        <reference key="3"></reference>
-        <string role="key" value="top_anchors_linked_from_fields"></string>
-        <list></list>
-        <string role="key" value="children"></string>
-        <list></list>
-       </dictionary>
-      </instance>
-      <instance class="exe.engine.node.Node" reference="6">
-       <dictionary>
-        <string role="key" value="_title"></string>
-        <unicode value="WEBS DE INTERÉS"></unicode>
-        <string role="key" value="idevices"></string>
-        <list></list>
-        <string role="key" value="_id"></string>
-        <unicode value="2"></unicode>
-        <string role="key" value="_package"></string>
-        <reference key="4"></reference>
-        <string role="key" value="anchor_fields"></string>
-        <list></list>
-        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
-        <int value="2"></int>
-        <string role="key" value="exportType"></string>
-        <string value="website"></string>
-        <string role="key" value="last_full_node_path"></string>
-        <string value="exe-node:INICIO:WEBS%20DE%20INTER%C3%89S"></string>
-        <string role="key" value="parent"></string>
-        <reference key="3"></reference>
-        <string role="key" value="top_anchors_linked_from_fields"></string>
-        <list></list>
-        <string role="key" value="children"></string>
-        <list></list>
-       </dictionary>
-      </instance>
+      <reference key="5"></reference>
+      <reference key="6"></reference>
+      <reference key="7"></reference>
      </list>
     </dictionary>
    </instance>
    <unicode role="key" value="1"></unicode>
    <reference key="5"></reference>
    <unicode role="key" value="2"></unicode>
-   <reference key="6"></reference>
-   <unicode role="key" value="3"></unicode>
    <reference key="7"></reference>
+   <unicode role="key" value="3"></unicode>
+   <reference key="6"></reference>
   </dictionary>
   <string role="key" value="_objectives"></string>
   <unicode value=""></unicode>
@@ -339,10 +352,16 @@
   <unicode value=""></unicode>
   <string role="key" value="_templateFile"></string>
   <string value="Base"></string>
+  <string role="key" value="anchor_nodes"></string>
+  <list>
+   <reference key="5"></reference>
+   <reference key="6"></reference>
+   <reference key="7"></reference>
+  </list>
   <string role="key" value="backgroundImgTile"></string>
   <bool value="0"></bool>
   <string role="key" value="currentNode"></string>
-  <reference key="3"></reference>
+  <reference key="4"></reference>
   <string role="key" value="dublinCore"></string>
   <instance class="exe.engine.package.DublinCore">
    <dictionary>
@@ -1585,7 +1604,7 @@
   <string role="key" value="resources"></string>
   <dictionary></dictionary>
   <string role="key" value="root"></string>
-  <reference key="3"></reference>
+  <reference key="4"></reference>
   <string role="key" value="scolinks"></string>
   <bool value="0"></bool>
   <string role="key" value="scowsinglepage"></string>
